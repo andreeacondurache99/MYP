@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\40755\source\repos\lab2\lab2\Main.cpp(6,64): error C2664: 'void Movie::SetFilm(char *)': cannot convert argument 1 from 'const char [47]' to 'char *'
+C:\Users\40755\source\repos\lab2\lab2\Main.cpp(6,16): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\40755\source\repos\lab2\lab2\movie.h(17,7): message : see declaration of 'Movie::SetFilm'
+C:\Users\40755\source\repos\lab2\lab2\Main.cpp(7,52): error C2664: 'void Movie::SetFilm(char *)': cannot convert argument 1 from 'const char [35]' to 'char *'
+C:\Users\40755\source\repos\lab2\lab2\Main.cpp(7,16): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\40755\source\repos\lab2\lab2\movie.h(17,7): message : see declaration of 'Movie::SetFilm'
